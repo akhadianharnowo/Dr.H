@@ -6,7 +6,7 @@ DA 348 can also be taken as an elective course or as a part of a minor. Feel fre
 
 ### Why taking DA 348 course?
 
-In DA 348, students will learn Python programming for data analytics. Python programming opens the door to many opportunities:
+In DA 348, students will learn Python programming for data analytics. Python programming **opens the door to many opportunities**:
 1.	Python advances your problem-solving skills and is relatively easy to learn
 	
 2.	Advances business/ data analytics career or get higher salary
@@ -17,25 +17,20 @@ In DA 348, students will learn Python programming for data analytics. Python pro
 - Many (big) companies require python skills
 3.	Pivots to a different career such as web developer, software engineer, data science, etc.
 
+`Print('Hello World')`
 
 ```markdown
-Syntax highlighted code block
+Did you know?
 
-# Header 1
-## Header 2
-### Header 3
+Data Analyst Salary (on average) is:
 
-- Bulleted
-- List
+$61,316 according to payscale.com
+$62,718 according to glassdoor.com
+$63,655 according to salary.com
+$67,294 according to ziprecruiter.com
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-Click to learn more about [Washburn School of Business](https://www.washburn.edu/academics/college-schools/business/index.html).
+_Click_ to learn more about [Washburn School of Business](https://www.washburn.edu/academics/college-schools/business/index.html).
 
 
