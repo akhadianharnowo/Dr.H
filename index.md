@@ -1,4 +1,4 @@
-## Welcome to DA 348
+## Welcome to Data Discovery and Management
 
 You can use the [editor on GitHub](https://github.com/akhadianharnowo/Dr.H/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
