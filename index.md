@@ -1,12 +1,21 @@
 ## Welcome to Data Discovery and Management
 
-Data Discovery and Management is the first of four required courses in the Business Data Analytics program at Washburn University. The program provides students with the skill sets needed to transform data into useful information and insights for data-driven decision making. You can read more detailed information about the program from Washburn’s   [Data Analytics](https://www.washburn.edu/academics/college-schools/business/bba-data-analytics.html) page. 
+Data Discovery and Management (DA 348) is the first of four required courses in the Business Data Analytics program at Washburn University. The program provides students with the skill sets needed to transform data into useful information and insights for data-driven decision making. You can read more detailed information about the program from Washburn’s   [Data Analytics](https://www.washburn.edu/academics/college-schools/business/bba-data-analytics.html) page. 
 
-Feel free to contact [me](mailto:akhadian.harnowo@washburn.edu) if you have questions about the course or the program.
+DA 348 can also be taken as an elective course or as a part of a minor. Feel free to contact [me](mailto:akhadian.harnowo@washburn.edu) if you have questions about the course or the program.
 
-### Markdown
+### Why taking DA 348 course?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In DA 348, students will learn Python programming for data analytics. Python programming opens the door to many opportunities:
+1.	Python is relatively easy to learn
+2.	Advance business/ data analytics career or get higher salary
+- Python deals with any types of data: numerical, categorical, geographical, text, images, audio, video, etc. (i.e., structured, semi-structured, unstructured data) from various sources
+- Python can perform statistics, predictive analytics, visualization, simulation (prescriptive analytics), among others
+- Python can process large datasets
+- Python can automate many business processes
+- Many (big) companies require python skills
+3.	Pivot to a different career such as web developer, software engineer, data science, etc.
+
 
 ```markdown
 Syntax highlighted code block
@@ -26,12 +35,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Click to learn more about Washburn [School of Business](https://www.washburn.edu/academics/college-schools/business/index.html).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akhadianharnowo/Dr.H/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
