@@ -1,8 +1,8 @@
 ## Welcome to Data Discovery and Management
 
-You can use the [editor on GitHub](https://github.com/akhadianharnowo/Dr.H/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Data Discovery and Management is the first of four required courses in the Business Data Analytics program at Washburn University. The program provides students with the skill sets needed to transform data into useful information and insights for data-driven decision making. You can read more detailed information about the program from Washburn’s    [Data Analytics](https://www.washburn.edu/academics/college-schools/business/bba-data-analytics.html) page. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+WFeel free to contact [me](mailto:akhadian.harnowo@washburn.edu) if you have questions about the course or the program.
 
 ### Markdown
 
