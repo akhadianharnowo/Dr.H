@@ -1,8 +1,8 @@
 ## Welcome to Data Discovery and Management
 
-Data Discovery and Management is the first of four required courses in the Business Data Analytics program at Washburn University. The program provides students with the skill sets needed to transform data into useful information and insights for data-driven decision making. You can read more detailed information about the program from Washburn’s    [Data Analytics](https://www.washburn.edu/academics/college-schools/business/bba-data-analytics.html) page. 
+Data Discovery and Management is the first of four required courses in the Business Data Analytics program at Washburn University. The program provides students with the skill sets needed to transform data into useful information and insights for data-driven decision making. You can read more detailed information about the program from Washburn’s   [Data Analytics](https://www.washburn.edu/academics/college-schools/business/bba-data-analytics.html) page. 
 
-WFeel free to contact [me](mailto:akhadian.harnowo@washburn.edu) if you have questions about the course or the program.
+Feel free to contact [me](mailto:akhadian.harnowo@washburn.edu) if you have questions about the course or the program.
 
 ### Markdown
 
