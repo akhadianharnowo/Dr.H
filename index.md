@@ -7,7 +7,8 @@ DA 348 can also be taken as an elective course or as a part of a minor. Feel fre
 ### Why taking DA 348 course?
 
 In DA 348, students will learn Python programming for data analytics. Python programming opens the door to many opportunities:
-1.	Python is relatively easy to learn
+1.	Python advances your problem-solving skills and is relatively easy to learn
+	
 2.	Advance business/ data analytics career or get higher salary
 - Python deals with any types of data: numerical, categorical, geographical, text, images, audio, video, etc. (i.e., structured, semi-structured, unstructured data) from various sources
 - Python can perform statistics, predictive analytics, visualization, simulation (prescriptive analytics), among others
@@ -35,6 +36,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-Click to learn more about Washburn [School of Business](https://www.washburn.edu/academics/college-schools/business/index.html).
+Click to learn more about [Washburn School of Business](https://www.washburn.edu/academics/college-schools/business/index.html).
 
 
