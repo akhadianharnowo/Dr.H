@@ -1,6 +1,7 @@
 ## Welcome to Data Discovery and Management
 
 ![Image of DA348 Cover](da348.jpg "welcome to DA348")
+
 Data Discovery and Management (DA 348) is the first of four required courses in the Business Data Analytics program at Washburn University. The program provides students with the skill sets needed to transform data into useful information and insights for data-driven decision making. You can read more detailed information about the program from Washburn’s   [Data Analytics](https://www.washburn.edu/academics/college-schools/business/bba-data-analytics.html) page. 
 
 DA 348 can also be taken as an elective course or as a part of a minor. Feel free to contact [me](mailto:akhadian.harnowo@washburn.edu) if you have questions about the course or the program.
