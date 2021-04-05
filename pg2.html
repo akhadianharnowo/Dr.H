@@ -36,7 +36,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <p> <span class="w3-tag"><a class="nav-link js-scroll-trigger" href="index.html">Business Data Analytics</a></span></p>
     </div>
     </header>
-    <div class="w3-center"><a class="nav-link js-scroll-trigger" href="index.html">Home</a> | <b>Page 1</b> | <a href="pg2.html">Page 2</a> | <a href="pg3.html">Page 3</a> </div>
+    <div class="w3-center"><a class="nav-link js-scroll-trigger" href="index.html">Home</a> | <a href="pg1.html">Page 1</a> | <b>Page 2</b> | <a href="pg3.html">Page 3</a> </div>
 <!-- Grid -->
 <div class="w3-row">
 
@@ -44,33 +44,32 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-    <img src="assets/img/python.png" alt="Data Analytics" style="width:100%">
+    <div class="w3-center"><img src="assets/img/pandas.png" alt="Data Analytics" style="width:15%"></div>
     <div class="w3-container">
-      <h3><b>How to Scrape Data from the Internet</b></h3>
-      <h5>HTML Basics - <span class="w3-opacity"><i>last edited</i> April 1, 2021</span></h5>
+      <h3><b>How to Scrape Tables from a Web page</b></h3>
+      <h5>Pandas library - <span class="w3-opacity"><i>last edited</i> April 1, 2021</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>HTML, stands for Hyper Text Markup Language, is the standard markup language for creating web pages. HTML defines the structure of a web page and shows its content. HTML consists of a series of elements which tell browser how to display the content correctly. Elements are declared by using tags: a start tag and an end tag. Web page content is placed in between those two tags. </p>
-        <p> At the very basic, an HTML file needs:
-    <br>1. A document type declaration:<code>&lt;!DOCTYPE html&gt;</code>
-    <br>2. The HTML document tags:starts with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code>
-    <br>3. The page content tags:starts with <code>&lt;body&gt;</code> and ends with <code>&lt;/body&gt;</code></p>
-        <p>When we type in a URL in the search address bar on an internet browser, we are sending an HTTP <b>request</b> for a webpage, and the webpage server will send back a <b>response</b> to our computer. Our browser will render the page based on the HTML elements consist in the file.</p>
-        <h5><a href="https://docs.python-requests.org/en/master/">Requests</a></h5>
-        Requests is an HTTP library for Python that pulls the raw content of a webpage, which is similar to opening an HTML file on Notepad or code editors. To pull the webpage content from a specific URL, we use the <code>.get()</code> method, then we store the content in variable called <code>response</code>. Finally, to show the content on Jupyter Notebook, we use <code>.text</code> function inside a <code>print</code> method. For example:
-        <p class="w3-border w3-light-gray"><code>import requests
-<br>response=requests.get("https://akhadianharnowo.github.io/Dr.H/basic1.html")
-<br>print(response.text)
+      <p> Pandas has a method to read through an HTML web page, and extract tables from that page. To scrape the tables from an HTML page, we can use <code>.read_html()</code> method. To load the table into a Pandas DataFrame, we pass in the index of the table in brackets. If there is only one table on the page, the index is <code>0</code>. </p>
+         <p class="w3-border w3-light-gray"><code>import pandas as pd
+<br>table=pd.read_html('https://akhadianharnowo.github.io/Dr.H/x1.html')
+<br>table[0]
             </code></p>
-                
+        If the page has multiple tables, the <code>.read_html()</code> method will list all tables it could find. We only need to slice the table that we want to load to the DataFrame by specifying the index.
+         <p class="w3-border w3-light-gray"><code># to load the second table in the output of pd.read_html() method
+<br>table[1]
+            </code></p>
+        We can use the <code>len()</code> method to learn how many tables Pandas found on an HTML page.
+         <p class="w3-border w3-light-gray"><code>len(table)
+            </code></p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="https://raw.githubusercontent.com/akhadianharnowo/files/main/Goodnightmoon.txt"><b>a Text page »</b></a></button>
-            <button class="w3-button w3-padding-large w3-white w3-border"><a href="basic1.html"><b>a Basic HTML page »</b></a></button></p>
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><a  href="x1.html"><b>Example of a web page with a table »</b></a></button>
+            </p>
         </div>
         <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">2</span></span></p>
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
         </div>
       </div>
     </div>
@@ -79,34 +78,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Blog entry 2 -->
   <div class="w3-card-4 w3-margin w3-white">
-  <img src="assets/img/soup.png" alt="Python" style="width:100%">
+  <img src="assets/img/" alt="Python" style="width:100%">
     <div class="w3-container">
-      <h3><b><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a></b></h3>
-      <h5>a Data Scraping Tool - <span class="w3-opacity"><i>last edited</i> April 2, 2021</span></h5>
+      <h3><b>Regular Expression </b></h3>
+      <h5>RegEx - <span class="w3-opacity">April 3. 2021</span></h5>
     </div>
-
     <div class="w3-container">
-      <p>Beautiful Soup is a Python library for screen scraping, that is, pulling data out of markup languages, such as HTML and XML. Beautiful Soup helps with pulling particular content from a webpage, parsing the file, removing the (HTML) markups & tags, and saving the information.</p>
-        <p>First of all, we need to create a Beautiful Soup document, which is commonly called 'soup' (but you can call it anything you want). Methods in Beautiful Soup library can help us find the HTML tags and extract the string from the results. To create the soup,  we call the constructor: <code>BeautifulSoup()</code> and pass in two parameters: <code>web_page</code> and <code>"html.parser"</code>. For example:</p>
-        <p class="w3-border w3-light-gray"><code>from bs4 import BeautifulSoup
-<br>response=requests.get("https://akhadianharnowo.github.io/Dr.H/basic.html")
-<br>web_page=response.text
-<br>soup = BeautifulSoup(web_page, "html.parser")
-<br>soup            </code></p>
-         Then, we can use the <code>.find()</code> method to find the HTML elements in the soup. <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Click here</a> to read the complete Beautiful Soup documentation.
-        <p class="w3-border w3-light-gray"><code># to find and extract the Heading 1
-<br>soup.find("h1")
-<br># to extract just he text in between the h1 tags
-<br>soup.find("h1").text
-<br># to find the HTML element that contains an image
-<br>soup.find("img")
-            </code></p>
-        Use the <code>.find_all()</code> method to look through HTML elements in the soup that match the filter. 
-        <p class="w3-border w3-light-gray"><code># to find all Heading 2 elements in the soup
-<br>soup.find_all("h2")
-<br># to find all images in the HTML file
-<br>soup.find_all("img")
-            </code></p>
+        <p>You can think of Regular Expression, or regex, as a powerful find and replace library. Regex has a search capability that perfectly complements BeautifulSoup when cleaning the data. To use Regex, we must call the library using the <code>import</code> key.  </p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
             <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="basic.html"><b>a Simple HTML page »</b></a></button>
