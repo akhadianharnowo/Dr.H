@@ -86,7 +86,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
 
     <div class="w3-container">
-      <p>Beautiful Soup is a Python library for screen scraping, that is, pulling data out of markup languages, such as HTML and XML. Beautiful Soup helps with pulling particular content from a webpage, parsing the file, removing the (HTML) markups & tags, and saving the information.</p>
+      <p>Beautiful Soup is a Python library for parsing a document. Beautiful Soup works by changing a document into an object that can be parsed to extract data. Beautiful Soup has methods that allow us to find or filter tags, navigate through the object, and other that will help us clean the markup object from the tags and elements.</p>
         <p>First of all, we need to create a Beautiful Soup document, which is commonly called 'soup' (but you can call it anything you want). Methods in Beautiful Soup library can help us find the HTML tags and extract the string from the results. To create the soup,  we call the constructor: <code>BeautifulSoup()</code> and pass in two parameters: <code>web_page</code> and <code>"html.parser"</code>. For example:</p>
         <p class="w3-border w3-light-gray"><code>from bs4 import BeautifulSoup
 <br>response=requests.get("https://akhadianharnowo.github.io/Dr.H/basic.html")
